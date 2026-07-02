@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1783025336710",
+    "createdAt": "2026-07-02T20:48:56.710Z",
+    "text": "This Stanley cup sold out at Target again, everyone I know has one",
+    "brand": null,
+    "company": null,
+    "ticker": null,
+    "isPublic": null,
+    "sentiment": "positive"
+  },
+  {
+    "id": "1783025336726",
+    "createdAt": "2026-07-02T20:48:56.726Z",
+    "text": "I returned my CeraVe moisturizer, quality dropped",
+    "brand": null,
+    "company": null,
+    "ticker": null,
+    "isPublic": null,
+    "sentiment": "negative"
+  },
+  {
+    "id": "1783025387845",
+    "createdAt": "2026-07-02T20:49:47.845Z",
+    "text": "This Stanley cup sold out at Target again, everyone I know has one",
+    "brand": "Stanley",
+    "company": "Pacific Market International",
+    "ticker": null,
+    "isPublic": false,
+    "sentiment": "positive"
+  },
+  {
+    "id": "1783025387858",
+    "createdAt": "2026-07-02T20:49:47.858Z",
+    "text": "I returned my CeraVe moisturizer, quality dropped",
+    "brand": "CeraVe",
+    "company": "L'Oreal S.A.",
+    "ticker": "OR.PA",
+    "isPublic": true,
+    "sentiment": "negative"
+  },
+  {
+    "id": "1783025387865",
+    "createdAt": "2026-07-02T20:49:47.865Z",
+    "text": "Everyone is obsessed with Lululemon leggings right now",
+    "brand": "Lululemon",
+    "company": "Lululemon Athletica Inc.",
+    "ticker": "LULU",
+    "isPublic": true,
+    "sentiment": "positive"
+  }
+]

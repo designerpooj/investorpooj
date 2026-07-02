@@ -1,0 +1,80 @@
+:root {
+  color-scheme: light dark;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f7f6f2;
+  color: #1a1a18;
+}
+
+.app-shell {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+.card {
+  background: #ffffff;
+  border: 0.5px solid #e2e0d8;
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+
+.muted {
+  color: #6f6d64;
+  font-size: 13px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 72px;
+  border-radius: 8px;
+  border: 0.5px solid #e2e0d8;
+  padding: 10px 12px;
+  font-size: 15px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+button {
+  border-radius: 8px;
+  border: 0.5px solid #c9c7bd;
+  background: transparent;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f0efe9;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.tabs button.active {
+  background: #1a1a18;
+  color: white;
+  border-color: #1a1a18;
+}
+
+.pill {
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.pill-positive { background: #eaf3de; color: #27500a; }
+.pill-negative { background: #fcebeb; color: #791f1f; }
+.pill-neutral { background: #f1efe8; color: #444441; }
